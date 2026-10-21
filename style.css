@@ -1,0 +1,8 @@
+nav ul,a{
+list-style: none;
+text-decoration: none;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+}
+
