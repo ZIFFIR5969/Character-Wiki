@@ -1,8 +1,139 @@
-nav ul,a{
-list-style: none;
-text-decoration: none;
-display: flex;
-justify-content: center;
-justify-content: space-between;
-}
+  body {
+      margin: 0px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
 
+  nav {
+      display: flex;
+      background-color: #0e1318;
+      align-items: center;
+      justify-content: space-evenly;
+      position: sticky;
+      top: 0;
+  }
+
+  ul#main {
+      list-style: none;
+      gap: 30px;
+      display: flex;
+
+  }
+
+
+  #logo {
+      width: 70px;
+  }
+
+  nav a {
+      text-decoration: none;
+      color: white;
+  }
+
+  nav a.active {
+      color: #70A5E8;
+      border-bottom: 1px solid #70A5E8;
+  }
+
+  nav a:hover {
+      color: #70A5E8;
+      transition: 0.5s;
+  }
+
+  .Hero {
+      background-image:
+          linear-gradient(to bottom, transparent 55%, #14171C 100%),
+          url(img/background.jpg);
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+
+  #Hero-block {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10%;
+      padding-left: 10%;
+      font-size: 30px;
+
+
+  }
+
+  #Hero-text {
+      color: white;
+      font-size: 20px;
+  }
+
+  .Hero h1 {
+      margin-top: 0px;
+      color: white;
+      letter-spacing: 3px;
+
+  }
+
+  .Hero h1 span {
+      color: #70A5E8;
+      display: block;
+
+
+  }
+
+  .Hero a {
+      text-decoration: none;
+      color: white;
+      border: 1px solid #70A5E8;
+      padding: 10px;
+      border-radius: 5px;
+
+
+  }
+
+  .Hero a:hover {
+      background-color: #70A5E8;
+      color: black;
+      transition: 0.5s;
+
+  }
+
+  #Hero-button {
+      padding-top: 20px;
+  }
+
+  #arrow {
+      color: #70A5E8;
+  }
+
+  .Hero a:hover #arrow {
+      color: black;
+      transition: 0.5s;
+  }
+
+  section#About hr {
+      border: 2px solid #70A5E8;
+  }
+
+  section#About {
+      background-color: #14171C;
+      color: white;
+      padding: 50px;
+  }
+
+  section#About p {
+      color: #B9C2CF;
+
+  }
+
+  footer {
+      background-color: #0e1318;
+      display: flex;
+      justify-content: center;
+  }
+
+  footer p {
+      color: white;
+
+  }
+
+  html {
+      scroll-behavior: smooth;
+  }
